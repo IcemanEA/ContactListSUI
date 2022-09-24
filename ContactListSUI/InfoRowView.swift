@@ -14,6 +14,7 @@ struct InfoRowView: View {
     var body: some View {
         HStack {
             Image(systemName: image)
+                .foregroundColor(.blue)
             Text(info)
         }
     }
