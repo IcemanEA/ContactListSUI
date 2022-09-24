@@ -19,14 +19,8 @@ struct PersonListDetailView: View {
                     .frame(width: 100, height: 100)
                 Spacer()
             }
-            HStack {
-                Image(systemName: "phone")
-                Text(person.phone)
-            }
-            HStack {
-                Image(systemName: "envelope")
-                Text(person.email)
-            }
+            InfoRowView(image: "phone", info: person.phone)
+            InfoRowView(image: "envelope", info: person.email)
         }
         .navigationTitle(person.name)
     }
