@@ -15,6 +15,7 @@
 		489DA2DF28DF52060019BA2E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DA2DE28DF52060019BA2E /* DataStore.swift */; };
 		489DA2E128DF52D80019BA2E /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DA2E028DF52D80019BA2E /* PersonListView.swift */; };
 		489DA2E328DF52E70019BA2E /* PersonSectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DA2E228DF52E70019BA2E /* PersonSectionsView.swift */; };
+		489DA2E528DF57360019BA2E /* PersonListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DA2E428DF57360019BA2E /* PersonListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		489DA2DE28DF52060019BA2E /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		489DA2E028DF52D80019BA2E /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
 		489DA2E228DF52E70019BA2E /* PersonSectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSectionsView.swift; sourceTree = "<group>"; };
+		489DA2E428DF57360019BA2E /* PersonListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				489DA2CC28DF51E40019BA2E /* ContactListSUIApp.swift */,
 				489DA2CE28DF51E40019BA2E /* ContentView.swift */,
 				489DA2E028DF52D80019BA2E /* PersonListView.swift */,
+				489DA2E428DF57360019BA2E /* PersonListDetailView.swift */,
 				489DA2E228DF52E70019BA2E /* PersonSectionsView.swift */,
 				489DA2DA28DF51FD0019BA2E /* Models */,
 				489DA2DD28DF52060019BA2E /* Services */,
@@ -171,6 +174,7 @@
 				489DA2CD28DF51E40019BA2E /* ContactListSUIApp.swift in Sources */,
 				489DA2E128DF52D80019BA2E /* PersonListView.swift in Sources */,
 				489DA2E328DF52E70019BA2E /* PersonSectionsView.swift in Sources */,
+				489DA2E528DF57360019BA2E /* PersonListDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,8 +13,9 @@ struct PersonListView: View {
     var body: some View {
         NavigationView {
             List(persons) { person in
-                
-                Text(person.name)
+                NavigationLink(person.name) {
+                    PersonListDetailView(person: person)
+                }
             }
             .listStyle(.plain)
             .navigationTitle("Contact List")
